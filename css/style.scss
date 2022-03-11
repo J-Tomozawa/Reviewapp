@@ -1,0 +1,14 @@
+@import 'variables';
+
+// モバイルのスタイルの読み込み
+@import 'mobile';
+
+@media screen and (min-width: 481px) {
+    // デスクトップのスタイルの読み込み
+    @import 'tablet';
+}
+
+@media screen and (min-width: 1025px) {
+    // デスクトップのスタイルの読み込み
+    @import 'desktop';
+}
